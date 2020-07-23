@@ -98,7 +98,7 @@ class Search extends React.Component {
             <div>
                 <TextField
                     style={{ marginLeft: "31rem", marginTop: "-4rem" }}
-                    label="Search Contacts"
+                    label="Search"
                     value={this.state.query}
                     onChange={this.handleInputChange}
                     InputProps={{
